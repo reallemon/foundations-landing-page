@@ -115,6 +115,7 @@ aside {
   gap: 5em;
   align-items: center;
   padding: 1em 0 2em;
+  border-radius: 3%;
 }
 
 aside p {
@@ -131,4 +132,12 @@ aside small {
 aside button {
   border: 2px solid #F9FAF8;
   padding: 0.4em 1em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  padding: 1%;
 }
