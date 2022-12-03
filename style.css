@@ -57,3 +57,33 @@ button {
   padding: .5em;
   margin-top: 1em;
 }
+
+main {
+  margin: 0 10%; 
+  display: flex;
+  flex-flow: column;
+}
+
+main h2 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #1F2937;
+  margin: 3% auto;
+}
+
+.images {
+  display: flex;
+  gap: 3em;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image img{
+  border: 5px solid #3882F6;
+  border-radius: 10%;
+}
+
