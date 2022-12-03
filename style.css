@@ -29,3 +29,31 @@ nav {
   display: flex;
   gap: 1em;
 }
+
+.hero-content {
+  display: flex;
+  gap: 3em; 
+  margin: 0 10%;
+  padding-bottom: 5%;
+}
+
+.hero-text {
+  flex: auto;
+}
+
+.hero-img {
+  flex: 3 0 auto;
+}
+
+button, aside {
+  background-color: #3882F6;
+}
+
+button {
+  display: block;
+  border-radius: 10%;
+  border: none;
+  color: #F9FAF8;
+  padding: .5em;
+  margin-top: 1em;
+}
